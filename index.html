@@ -1,0 +1,741 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Lead Generation Form</title>
+        <!-- Normalize CSS -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+        <!-- Bootstrap 5 CSS -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+        <!-- Telephone Input CSS -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/12.1.2/css/intlTelInput.css">
+        <!-- Icons CSS -->
+        <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+        <!-- Nice Select CSS -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-nice-select/1.1.0/css/nice-select.min.css">
+        <!-- Custom CSS -->
+        <link rel="stylesheet" href="assets/css/style.css">
+        <link rel="stylesheet" href="assets/css/custom.css">
+        <!-- Demo CSS -->
+        <link rel="stylesheet" href="assets/css/demo.css">
+    </head>
+    <body>
+        <header class="intro">
+            <img src="assets/images/logoipsum-325.svg" alt="SITE LOGO">
+            <!-- <div class="tittle">
+                <ul id="progressbar">
+                    <li class="active"></li>  
+                    <li></li> 
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+                <ul id="progressbar">
+                    <li class="active"></li>  
+                    <li></li> 
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+            </div> -->
+        </header>
+        <main>
+            <article>
+                <section class="multi_step_form">
+                    <form id="msform">
+                        <!-- Tittle -->
+                        
+                        <!-- progressbar -->
+                        <!-- <ul id="progressbar">
+                            <li class="active"></li>  
+                            <li></li> 
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                        </ul>
+                        <ul id="progressbar">
+                            <li class="active"></li>  
+                            <li></li> 
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                        </ul> -->
+                        <!-- fieldsets -->
+                        <fieldset><!-- Page 1 -->
+                            <h2>CALCULATE A LOWER MONTHLY PAYMENT</h2>
+                            <h3>Refinance to a lower rate and monthly payment to save thousands on your mortgage</h3>
+                            <p>Select an option below to find out what you qualify for now!</p>
+                            <div class="d-flex" style="margin-bottom: 50px;">
+                                <div class="card" style="width: 18rem; margin-right: 10px;">
+                                    <img src="assets/images/img_1.png" class="card-img-top" alt="Image 1">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Single Family Home</h5>
+                                        <input type="radio" name="Page1" value="image1">
+                                    </div>
+                                </div>
+                            
+                                <div class="card" style="width: 18rem; margin-right: 10px;">
+                                    <img src="assets/images/img_2.png" class="card-img-top" alt="Image 2">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Condominium</h5>
+                                        <input type="radio" name="Page1" value="image2">
+                                    </div>
+                                </div>
+                            
+                                <div class="card" style="width: 18rem;">
+                                    <img src="assets/images/img_3.png" class="card-img-top" alt="Image 3">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Townhome</h5>
+                                        <input type="radio" name="Page1" value="image3">
+                                    </div>
+                                </div>
+                            </div>
+                            <button type="button" class="action-button previous_button">Back</button>
+                            <button type="button" class="next action-button">Continue</button>
+                        </fieldset>
+
+                        <fieldset><!-- Page 2 -->
+                            <h2>What type of home loan are you refinancing?</h2>
+                            <div class="d-flex justify-content-center">
+                                <ul class="list-group list-group-horizontal">
+                                    <li class="list-group-item" style="margin: 10px;">
+                                        <label class="form-check-label">
+                                            <input type="radio" name="Page2" class="form-check-input" value="conventional">
+                                            Conventional Loan
+                                        </label>
+                                    </li>
+                                </ul>
+                                <ul class="list-group list-group-horizontal">
+                                    <li class="list-group-item" style="margin: 10px;">
+                                        <label class="form-check-label">
+                                            <input type="radio" name="Page2" class="form-check-input" value="va">
+                                            VA Loan
+                                        </label>
+                                    </li>
+                                </ul>
+                            </div>
+                            
+                            <div class="d-flex justify-content-center">
+                                <ul class="list-group list-group-horizontal">
+                                    <li class="list-group-item" style="margin: 10px;">
+                                        <label class="form-check-label">
+                                            <input type="radio" name="Page2" class="form-check-input" value="usda">
+                                            USDA Loan
+                                        </label>
+                                    </li>
+                                </ul>
+                                <ul class="list-group list-group-horizontal">
+                                    <li class="list-group-item" style="margin: 10px;">
+                                        <label class="form-check-label">
+                                            <input type="radio" name="Page2" class="form-check-input" value="fha">
+                                            FHA Loan
+                                        </label>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="d-flex justify-content-center" style="margin-bottom: 50px;">
+                                <ul class="list-group list-group-horizontal">
+                                    <li class="list-group-item" style="margin: 10px;">
+                                        <label class="form-check-label">
+                                            <input type="radio" name="Page2" class="form-check-input" value="unknown">
+                                            I don't know
+                                        </label>
+                                    </li>
+                                </ul>
+                            </div>
+                            <button type="button" class="action-button previous previous_button">Back</button>
+                            <button type="button" class="next action-button">Continue</button>  
+                        </fieldset>  
+
+                        <fieldset><!-- Page 3 -->
+                            <h2>What's your home loan refinancing goal?</h2>
+                            <div class="d-flex justify-content-center">
+                                <ul class="list-group list-group-horizontal">
+                                    <li class="list-group-item" style="margin: 10px;">
+                                        <label class="form-check-label">
+                                            <input type="radio" name="Page3" class="form-check-input" value="takeoutcash">
+                                            Take Cash Out of My Home
+                                        </label>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="d-flex justify-content-center">
+                                <ul class="list-group list-group-horizontal">
+                                    <li class="list-group-item" style="margin: 10px;">
+                                        <label class="form-check-label">
+                                            <input type="radio" name="Page3" class="form-check-input" value="payoffdebts">
+                                            Pay Off Debts
+                                        </label>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="d-flex justify-content-center" style="margin-bottom: 50px;">
+                                <ul class="list-group list-group-horizontal">
+                                    <li class="list-group-item" style="margin: 10px;">
+                                        <label class="form-check-label">
+                                            <input type="radio" name="Page3" class="form-check-input" value="monthlypayment">
+                                            Lower My Monthly Payments
+                                        </label>
+                                    </li>
+                                </ul>
+                            </div>
+                            <button type="button" class="action-button previous previous_button">Back</button>
+                            <button type="button" class="next action-button">Continue</button>  
+                        </fieldset>
+
+                        <fieldset><!-- Page 4 -->
+                            <h3>What's the value of your home?</h3>
+                            <h6>(an estimate is fine)</h6>
+                            <div class="input-group mb-3 d-flex justify-content-center">
+                                <div class="w-50 position-relative">
+                                    <input type="number" name="Page4" class="form-control" placeholder="Estimated Home Value" id="estimatedHomeValue">
+                                    <span class="clear-input" id="clearEstimatedHomeValue">&times;</span>
+                                </div>
+                            </div>
+                            
+                            <button type="button" class="action-button previous previous_button">Back</button>
+                            <button type="button" class="next action-button">Continue</button> 
+                        </fieldset>
+
+                        <fieldset><!-- Page 5 -->
+                            <h3>What's the remaining balance of your current loan?</h3>
+                            <h6>(an estimate is fine)</h6>
+                            <div class="input-group mb-3 d-flex justify-content-center">
+                                <div class="w-50 position-relative">
+                                    <input type="number" name="Page5" class="form-control" placeholder="Estimated Loan Balance" id="estimatedLoanValue">
+                                    <span class="clear-input" id="clearEstimatedLoanValue">&times;</span>
+                                </div>
+                            </div>
+
+                            <button type="button" class="action-button previous previous_button">Back</button>
+                            <button type="button" class="next action-button">Continue</button> 
+                        </fieldset>
+
+                        <fieldset><!-- Page 6 -->
+                            <h3>What's your current mortgage interest rate?</h3>
+                            <div class="form-group"> 
+                                <select class="product_select" name="Page6" id="Page6">
+                                    <option data-display="1. Choose A Question">SELECT YOUR CURRENT RATE</option> 
+                                    <option value="1">UNDER 3%</option>
+                                    <option value="3.25">3.25 %</option>
+                                    <option value="3.50">3.50 %</option> 
+                                    <option value="3.75">3.75 %</option> 
+                                    <option value="4.00">4.00 %</option> 
+                                    <option value="4.25">4.25 %</option>
+                                    <option value="4.50">4.50 %</option> 
+                                    <option value="4.75">4.75 %</option> 
+                                    <option value="5.00">5.00 %</option> 
+                                    <option value="5.25">5.25 %</option>
+                                    <option value="5.50">5.50 %</option> 
+                                    <option value="5.75">5.75 %</option> 
+                                    <option value="6.00">6.00 %</option> 
+                                    <option value="6.25">6.25 %</option>
+                                    <option value="6.50">6.50 %</option> 
+                                    <option value="6.75">6.75 %</option> 
+                                    <option value="7.00">7.00 %</option> 
+                                    <option value="7.25">7.25 %</option>
+                                    <option value="7.50">7.50 %</option> 
+                                    <option value="7.75">7.75 %</option> 
+                                    <option value="8.00">8.00 %</option> 
+                                    <option value="8.25">8.25 %</option>
+                                    <option value="8.50">8.50 %</option> 
+                                    <option value="8.75">8.75 %</option> 
+                                    <option value="9.00">9.00 %</option> 
+                                    <option value="9.25">9.25 %</option>
+                                    <option value="9.50">9.50 %</option> 
+                                    <option value="9.75">9.75 %</option> 
+                                    <option value="10.00">10.00 %</option>
+                                </select>
+                            </div>
+
+                            <button type="button" class="action-button previous previous_button"  style="margin-top: 50px;">Back</button>
+                            <button type="button" class="next action-button">Continue</button> 
+                        </fieldset>
+
+                        <fieldset><!-- Page 7 -->
+                            <h2>What kind of home do you currently own?</h2>
+                            <div class="d-flex justify-content-center">
+                                <ul class="list-group list-group-horizontal">
+                                    <li class="list-group-item" style="margin: 10px;">
+                                        <label class="form-check-label">
+                                            <input type="radio" name="Page7" class="form-check-input" value="singlefamily">
+                                            Single Family
+                                        </label>
+                                    </li>
+                                </ul>
+                                <ul class="list-group list-group-horizontal">
+                                    <li class="list-group-item" style="margin: 10px;">
+                                        <label class="form-check-label">
+                                            <input type="radio" name="Page7" class="form-check-input" value="condominium">
+                                            Condominium
+                                        </label>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="d-flex justify-content-center">
+                                <ul class="list-group list-group-horizontal">
+                                    <li class="list-group-item" style="margin: 10px;">
+                                        <label class="form-check-label">
+                                            <input type="radio" name="Page7" class="form-check-input" value="townhome">
+                                            Town Home
+                                        </label>
+                                    </li>
+                                </ul>
+                                <ul class="list-group list-group-horizontal">
+                                    <li class="list-group-item" style="margin: 10px;">
+                                        <label class="form-check-label">
+                                            <input type="radio" name="Page7" class="form-check-input" value="multifamily">
+                                            Multi-Family
+                                        </label>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="d-flex justify-content-center" style="margin-bottom: 50px;">
+                                <ul class="list-group list-group-horizontal">
+                                    <li class="list-group-item" style="margin: 10px;">
+                                        <label class="form-check-label">
+                                            <input type="radio" name="Page7" class="form-check-input" value="mobile">
+                                            Mobile / Manufactured
+                                        </label>
+                                    </li>
+                                </ul>
+                                <ul class="list-group list-group-horizontal">
+                                    <li class="list-group-item" style="margin: 10px;">
+                                        <label class="form-check-label">
+                                            <input type="radio" name="Page7" class="form-check-input" value="other">
+                                            Other
+                                        </label>
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <button type="button" class="action-button previous previous_button">Back</button>
+                            <button type="button" class="next action-button">Continue</button> 
+                        </fieldset>
+
+                        <fieldset><!-- Page 8 -->
+                            <h2>How are you using this home?</h2>
+                            <div class="d-flex justify-content-center">
+                                <ul class="list-group list-group-horizontal">
+                                    <li class="list-group-item" style="margin: 10px;">
+                                        <label class="form-check-label">
+                                            <input type="radio" name="Page8" class="form-check-input" value="primary">
+                                            Primary Home
+                                        </label>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="d-flex justify-content-center">
+                                <ul class="list-group list-group-horizontal">
+                                    <li class="list-group-item" style="margin: 10px;">
+                                        <label class="form-check-label">
+                                            <input type="radio" name="Page8" class="form-check-input" value="secondary">
+                                            Secondary / Vacation Home
+                                        </label>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="d-flex justify-content-center" style="margin-bottom: 50px;">
+                                <ul class="list-group list-group-horizontal">
+                                    <li class="list-group-item" style="margin: 10px;">
+                                        <label class="form-check-label">
+                                            <input type="radio" name="Page8" class="form-check-input" value="investment">
+                                            Investment Property
+                                        </label>
+                                    </li>
+                                </ul>
+                            </div>
+                            <button type="button" class="action-button previous previous_button">Back</button>
+                            <button type="button" class="next action-button">Continue</button> 
+                        </fieldset>
+
+                        <fieldset><!-- Page 9 -->
+                            <h2>Have you (or your spouse) ever served in the US military?</h2>
+                            <h6>Active-duty military and Veterans may qualify for a VA Loan with $0 down and no PMI.</h6>
+                            <div class="d-flex justify-content-center">
+                                <ul class="list-group list-group-horizontal">
+                                    <li class="list-group-item" style="margin: 10px;">
+                                        <label class="form-check-label">
+                                            <input type="radio" name="Page9" class="form-check-input" value="nomilitary">
+                                            No Military Service
+                                        </label>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="d-flex justify-content-center" style="margin-bottom: 50px;">
+                                <ul class="list-group list-group-horizontal">
+                                    <li class="list-group-item" style="margin: 10px;">
+                                        <label class="form-check-label">
+                                            <input type="radio" name="Page9" class="form-check-input" value="yesmilitary">
+                                            Yes, I (or my spouse) served
+                                        </label>
+                                    </li>
+                                </ul>
+                            </div>
+                            <button type="button" class="action-button previous previous_button">Back</button>
+                            <button type="button" class="next action-button">Continue</button> 
+                        </fieldset>
+
+                        <fieldset><!-- Page 10 -->
+                            <h2>Do you have an active account with any of these institutions?</h2>
+                            <h6>(Select all that apply)</h6>
+                            <div class="d-flex justify-content-center">
+                                <ul class="list-group list-group-horizontal">
+                                    <li class="list-group-item" style="margin: 10px;">
+                                        <label class="form-check-label">
+                                            <input type="checkbox" name="Page10_1" class="form-check-input" value="chase">
+                                            Chase
+                                        </label>
+                                    </li>
+                                </ul>
+                                <ul class="list-group list-group-horizontal">
+                                    <li class="list-group-item" style="margin: 10px;">
+                                        <label class="form-check-label">
+                                            <input type="checkbox" name="Page10_2" class="form-check-input" value="Chase">
+                                            Bank of America
+                                        </label>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="d-flex justify-content-center">
+                                <ul class="list-group list-group-horizontal">
+                                    <li class="list-group-item" style="margin: 10px;">
+                                        <label class="form-check-label">
+                                            <input type="checkbox" name="Page10_3" class="form-check-input" value="wellsfrago">
+                                            Wells Frago
+                                        </label>
+                                    </li>
+                                </ul>
+                                <ul class="list-group list-group-horizontal">
+                                    <li class="list-group-item" style="margin: 10px;">
+                                        <label class="form-check-label">
+                                            <input type="checkbox" name="Page10_4" class="form-check-input" value="citibank">
+                                            Citibank, N.A.
+                                        </label>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="d-flex justify-content-center">
+                                <ul class="list-group list-group-horizontal">
+                                    <li class="list-group-item" style="margin: 10px;">
+                                        <label class="form-check-label">
+                                            <input type="checkbox" name="Page10_5" class="form-check-input" value="usbank">
+                                            US Bank
+                                        </label>
+                                    </li>
+                                </ul>
+                                <ul class="list-group list-group-horizontal">
+                                    <li class="list-group-item" style="margin: 10px;">
+                                        <label class="form-check-label">
+                                            <input type="checkbox" name="Page10_6" class="form-check-input" value="pncbank">
+                                            PNC Bank
+                                        </label>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="d-flex justify-content-center">
+                                <ul class="list-group list-group-horizontal">
+                                    <li class="list-group-item" style="margin: 10px;">
+                                        <label class="form-check-label">
+                                            <input type="checkbox" name="Page10_7" class="form-check-input" value="navyunion">
+                                            Navy Federal Credit Union
+                                        </label>
+                                    </li>
+                                </ul>
+                                <ul class="list-group list-group-horizontal">
+                                    <li class="list-group-item" style="margin: 10px;">
+                                        <label class="form-check-label">
+                                            <input type="checkbox" name="Page10_8" class="form-check-input" value="none">
+                                            None of the Above
+                                        </label>
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <button type="button" class="action-button previous previous_button" style="margin-top: 50px;">Back</button>
+                            <button type="button" class="next action-button">Continue</button> 
+                        </fieldset>
+
+                        <fieldset><!-- Page 11 -->
+                            <h2>What's your employment status?</h2>
+
+                            <div class="d-flex justify-content-center">
+                                <ul class="list-group list-group-horizontal">
+                                    <li class="list-group-item" style="margin: 10px;">
+                                        <label class="form-check-label">
+                                            <input type="radio" name="Page11" class="form-check-input" value="Employed">
+                                            Employed
+                                        </label>
+                                    </li>
+                                </ul>
+                                <ul class="list-group list-group-horizontal">
+                                    <li class="list-group-item" style="margin: 10px;">
+                                        <label class="form-check-label">
+                                            <input type="radio" name="Page11" class="form-check-input" value="SelfEmployed">
+                                            Self-Employed / 1099 Independent Contractor
+                                        </label>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="d-flex justify-content-center">
+                                <ul class="list-group list-group-horizontal">
+                                    <li class="list-group-item" style="margin: 10px;">
+                                        <label class="form-check-label">
+                                            <input type="radio" name="Page11" class="form-check-input" value="Retired">
+                                            Retired
+                                        </label>
+                                    </li>
+                                </ul>
+                                <ul class="list-group list-group-horizontal">
+                                    <li class="list-group-item" style="margin: 10px;">
+                                        <label class="form-check-label">
+                                            <input type="radio" name="Page11" class="form-check-input" value="Military">
+                                            Military
+                                        </label>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="d-flex justify-content-center">
+                                <ul class="list-group list-group-horizontal">
+                                    <li class="list-group-item" style="margin: 10px;">
+                                        <label class="form-check-label">
+                                            <input type="radio" name="Page11" class="form-check-input" value="NotEmployed">
+                                            Not Employed
+                                        </label>
+                                    </li>
+                                </ul>
+                            </div>
+                            
+                            <button type="button" class="action-button previous previous_button" style="margin-top: 50px;">Back</button>
+                            <button type="button" class="next action-button">Continue</button> 
+                        </fieldset>
+
+                        <fieldset><!-- Page 12 -->
+                            <h2>What's your household gross (before taxes) annual income?</h2>
+
+                            <div class="d-flex justify-content-center">
+                                <ul class="list-group list-group-horizontal">
+                                    <li class="list-group-item" style="margin: 10px;">
+                                        <label class="form-check-label">
+                                            <input type="radio" name="Page12" class="form-check-input" value="200000">
+                                            Greater than $200,000
+                                        </label>
+                                    </li>
+                                </ul>
+                                <ul class="list-group list-group-horizontal">
+                                    <li class="list-group-item" style="margin: 10px;">
+                                        <label class="form-check-label">
+                                            <input type="radio" name="Page12" class="form-check-input" value="150000">
+                                            $150,000 - $200,000
+                                        </label>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="d-flex justify-content-center">
+                                <ul class="list-group list-group-horizontal">
+                                    <li class="list-group-item" style="margin: 10px;">
+                                        <label class="form-check-label">
+                                            <input type="radio" name="Page12" class="form-check-input" value="100000">
+                                            $100,000 - $150,000
+                                        </label>
+                                    </li>
+                                </ul>
+                                <ul class="list-group list-group-horizontal">
+                                    <li class="list-group-item" style="margin: 10px;">
+                                        <label class="form-check-label">
+                                            <input type="radio" name="Page12" class="form-check-input" value="75000">
+                                            $75,000 - $100,000
+                                        </label>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="d-flex justify-content-center">
+                                <ul class="list-group list-group-horizontal">
+                                    <li class="list-group-item" style="margin: 10px;">
+                                        <label class="form-check-label">
+                                            <input type="radio" name="Page12" class="form-check-input" value="50000">
+                                            $50,000 - $75,000
+                                        </label>
+                                    </li>
+                                </ul>
+                                <ul class="list-group list-group-horizontal">
+                                    <li class="list-group-item" style="margin: 10px;">
+                                        <label class="form-check-label">
+                                            <input type="radio" name="Page12" class="form-check-input" value="30000">
+                                            $30,000 - $50,000
+                                        </label>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="d-flex justify-content-center">
+                                <ul class="list-group list-group-horizontal">
+                                    <li class="list-group-item" style="margin: 10px;">
+                                        <label class="form-check-label">
+                                            <input type="radio" name="Page12" class="form-check-input" value="10000">
+                                            Less than $30,000
+                                        </label>
+                                    </li>
+                                </ul>
+                            </div>
+                            
+                            <button type="button" class="action-button previous previous_button" style="margin-top: 50px;">Back</button>
+                            <button type="button" class="next action-button">Continue</button> 
+                        </fieldset>
+
+                        <fieldset><!-- Page 13 -->
+                            <h2>Have you filed for bankruptcy, or had a short sale or foreclosure in the last 3 years?</h2>
+                            <div class="d-flex justify-content-center">
+                                <ul class="list-group list-group-horizontal">
+                                    <li class="list-group-item" style="margin: 10px;">
+                                        <label class="form-check-label">
+                                            <input type="radio" name="Page13" class="form-check-input" value="yes">
+                                            Yes
+                                        </label>
+                                    </li>
+                                </ul>
+                                <ul class="list-group list-group-horizontal">
+                                    <li class="list-group-item" style="margin: 10px;">
+                                        <label class="form-check-label">
+                                            <input type="radio" name="Page13" class="form-check-input" value="no">
+                                            No
+                                        </label>
+                                    </li>
+                                </ul>
+                            </div>
+                            
+                            <button type="button" class="action-button previous previous_button" style="margin-top: 50px;">Back</button>
+                            <button type="button" class="next action-button">Continue</button> 
+                        </fieldset>
+
+                        <fieldset><!-- Page 14 -->
+                            <h2>Have you (or your spouse) ever served in the US military?</h2>
+                            <h6>Active-duty military and Veterans may qualify for a VA Loan with $0 down and no PMI.</h6>
+
+                            
+                            <button type="button" class="action-button previous previous_button" style="margin-top: 50px;">Back</button>
+                            <button type="button" class="next action-button">Continue</button> 
+                        </fieldset>
+
+                        <fieldset><!-- Page 15 -->
+                            <h2>Have you (or your spouse) ever served in the US military?</h2>
+                            <h6>Active-duty military and Veterans may qualify for a VA Loan with $0 down and no PMI.</h6>
+
+                            
+                            <button type="button" class="action-button previous previous_button" style="margin-top: 50px;">Back</button>
+                            <button type="button" class="next action-button">Continue</button> 
+                        </fieldset>
+
+                        <fieldset><!-- Page 16 -->
+                            <h2>Have you (or your spouse) ever served in the US military?</h2>
+                            <h6>Active-duty military and Veterans may qualify for a VA Loan with $0 down and no PMI.</h6>
+
+                            
+                            <button type="button" class="action-button previous previous_button" style="margin-top: 50px;">Back</button>
+                            <button type="button" class="next action-button">Continue</button> 
+                        </fieldset>
+
+                        <fieldset><!-- Page 17 -->
+                            <h2>Have you (or your spouse) ever served in the US military?</h2>
+                            <h6>Active-duty military and Veterans may qualify for a VA Loan with $0 down and no PMI.</h6>
+
+                            
+                            <button type="button" class="action-button previous previous_button" style="margin-top: 50px;">Back</button>
+                            <button type="button" class="next action-button">Continue</button> 
+                        </fieldset>
+
+                        <fieldset><!-- Page 18 -->
+                            <h2>Have you (or your spouse) ever served in the US military?</h2>
+                            <h6>Active-duty military and Veterans may qualify for a VA Loan with $0 down and no PMI.</h6>
+
+                            
+                            <button type="button" class="action-button previous previous_button" style="margin-top: 50px;">Back</button>
+                            <button type="button" class="next action-button">Continue</button> 
+                        </fieldset>
+
+                        <fieldset><!-- Page 19 -->
+                            <h2>Have you (or your spouse) ever served in the US military?</h2>
+                            <h6>Active-duty military and Veterans may qualify for a VA Loan with $0 down and no PMI.</h6>
+
+                            
+                            <button type="button" class="action-button previous previous_button" style="margin-top: 50px;">Back</button>
+                            <button type="button" class="next action-button">Continue</button> 
+                        </fieldset>
+
+                        <fieldset><!-- Page 20 -->
+                            <h2>Have you (or your spouse) ever served in the US military?</h2>
+                            <h6>Active-duty military and Veterans may qualify for a VA Loan with $0 down and no PMI.</h6>
+
+                            
+                            <button type="button" class="action-button previous previous_button" style="margin-top: 50px;">Back</button>
+                            <button type="button" class="next action-button">Continue</button> 
+                        </fieldset>
+
+                        <fieldset><!-- Page 21 -->
+                            <h2>Have you (or your spouse) ever served in the US military?</h2>
+                            <h6>Active-duty military and Veterans may qualify for a VA Loan with $0 down and no PMI.</h6>
+
+                            
+                            <button type="button" class="action-button previous previous_button" style="margin-top: 50px;">Back</button>
+                            <button type="button" class="next action-button">Continue</button> 
+                        </fieldset>
+
+                        <fieldset><!-- Page 22 -->
+                            <h2>Have you (or your spouse) ever served in the US military?</h2>
+                            
+                            <button type="button" class="action-button previous previous_button">Back</button> 
+                            <a href="#" class="action-button">Finish</a> 
+                        </fieldset>  
+                    </form>
+                </section>
+            </article>
+        </main>
+        <footer class="credit">
+            <h5>No login or SSN required. This will NOT affect your credit, and it takes less than 1 minute to complete!</h5>
+            <hr>
+            <h5><span style="color: aqua;">IMPORTANT PRIVACY NOTICE:</span> YOUR INFORMATION WILL NOT BE SOLD TO MULTIPLE PARTIES</h5>
+            <p>
+            Most online mortgage shopping experiences sell the information they collect to multiple mortgage lenders, banks, and other institutions. We don't. You’ll get connected with a top Crush Mortgage Advisor that’s licensed in your market, and YOU can decide the next steps from there.
+            </p>
+            <hr>
+            <p>
+            IMPORTANT DISCLOSURES<br>
+            Crush Mortgage Loans is a tradename of Rebel Mortgage, LLC, NMLS #282856 | This website is for demo purposes only
+            </p>
+        </footer>
+        
+        <!-- JavaScript dependencies -->
+        <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+        <script src='https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.10.2/umd/popper.min.js'></script>
+        <script src='https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js'></script>
+        <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js'></script>
+        <script src='https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/12.1.2/js/intlTelInput.js'></script>
+        <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery-nice-select/1.1.0/js/jquery.nice-select.min.js'></script>
+        <script src="assets/js/script.js"></script>
+        <script src="assets/js/custom.js"></script>
+    </body>
+</html>
