@@ -53,11 +53,6 @@ $conn->close();
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link <?php echo basename($_SERVER['PHP_SELF']) === 'settings.php' ? 'active' : ''; ?>" href="settings.php">
-                                Settings
-                            </a>
-                        </li>
-                        <li class="nav-item">
                             <a class="nav-link <?php echo basename($_SERVER['PHP_SELF']) === 'logout.php' ? 'active' : ''; ?>" href="logout.php">
                                 Logout
                             </a>

@@ -1,0 +1,31 @@
+CREATE TABLE IF NOT EXISTS mortgage_leads (
+        id INT AUTO_INCREMENT PRIMARY KEY,
+        property_type VARCHAR(255),
+        loan_type VARCHAR(255),
+        mortgage_goal VARCHAR(255),
+        value_property DECIMAL(10, 2),
+        loan_balance DECIMAL(10, 2),
+        current_interest_rate DECIMAL(4, 3),
+        property_ownership VARCHAR(255),
+        property_use VARCHAR(255),
+        military_service BOOLEAN,
+        bank_customer VARCHAR(255),
+        employment_status VARCHAR(255),
+        household_income VARCHAR(255),
+        bankruptcy_foreclosure BOOLEAN,
+        cash_out_amount DECIMAL(10, 2),
+        credit_score VARCHAR(255),
+        street_address VARCHAR(255),
+        unit VARCHAR(255),
+        zip_code VARCHAR(10),
+        full_name VARCHAR(30),
+        email_address VARCHAR(255),
+        phone_number VARCHAR(15),
+        lead_date TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+    )
+
+CREATE TABLE admins (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    username VARCHAR(255) NOT NULL UNIQUE,
+    password VARCHAR(255) NOT NULL
+);
