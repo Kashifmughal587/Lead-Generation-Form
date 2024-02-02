@@ -141,12 +141,12 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     try {
 
         $mail->isSMTP();
-        $mail->Host = 'sandbox.smtp.mailtrap.io';
-        $mail->SMTPAuth = true;
-        $mail->Username = 'aeefe4637af119';
-        $mail->Password = '288c6aa0da0266';
-        $mail->SMTPSecure = 'tls';
-        $mail->Port = 2525;
+        $mail->Host = $smtpHost;
+        $mail->SMTPAuth = $smtpAuth;
+        $mail->Username = $smtpUsername;
+        $mail->Password = $smtpPassword;
+        $mail->SMTPSecure = $smtpSecure;
+        $mail->Port = $smtpPort;
 
         $mail->setFrom('sender@example.com', 'Sender Name');
         $mail->addAddress('receiver@example.com', 'Recipient Name');
@@ -161,7 +161,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         $mail->send();
         echo '<script>';
         echo 'alert("Form Submitted Successfully, PDF sent to email!");';
-        echo 'window.location.href = "index.php";';  // Redirect after showing the alert
+        echo 'window.location.href = "index.php";';
         echo '</script>';       
         
     } catch (Exception $e) {
